@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f7f7fb;
+}
+.logo{
+    background: url(../img/logo_bg-removebg-preview.png) no-repeat 80% 50%;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+.menu{
+    position: absolute;
+    right: 70px;
+    padding: 3px;
+}
+.menu a{
+    width: 300px;
+    color: rgb(8, 37, 37);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 30px;
+    transition: color 1s;
+}
+.menu a:hover{
+    color: blue;
+}
+img{
+    width: 1230px;
+}
+header{
+    width: 200%;
+    height: 120px;
+    margin-top: 20px;
+}
